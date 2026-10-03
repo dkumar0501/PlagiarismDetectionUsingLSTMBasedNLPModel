@@ -45,10 +45,6 @@ The project was developed under **Prof. Nutan Kumar Tomar, Department of Mathema
 
 **Developed by [D Kumar](https://github.com/dkumar0501)**
 
-**Under Prof. Nutan Kumar Tomar, Department of Mathematics, IIT Patna**
-
-[GitHub Repository](https://github.com/dkumar0501/PlagiarismDetectionUsingLSTMBasedNLPModel/tree/main)
-
 ---
 
 *“Detecting textual similarity through deep learning and natural language processing.”*
