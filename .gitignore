@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+*.db
+.DS_Store
+*.log
+node_modules/
+dist/
+build/
+.vscode/
+.idea/
+*.egg-info/
+plagiarism.db
+*.pdf
+*INVO*
+WhatsApp*
+# WhatsApp files
+\(120\)*

@@ -1,0 +1,55 @@
+# =============================================
+#  Jupyter Notebook Cell - Model Export
+# =============================================
+#
+# Run this cell at the END of your notebook to
+# export the trained model and tokenizer for the
+# Flask backend.
+#
+# IMPORTANT: Run this AFTER training the model!
+# =============================================
+
+# Import required libraries
+import os
+import pickle
+
+# Define paths
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(".")))  # Capstone 2 root
+MODEL_DIR = os.path.join(BASE_DIR, "backend", "app", "ml")
+os.makedirs(MODEL_DIR, exist_ok=True)
+
+MODEL_PATH = os.path.join(MODEL_DIR, "siamese_lstm_model.h5")
+TOKENIZER_PATH = os.path.join(MODEL_DIR, "tokenizer.pickle")
+
+print("="*50)
+print("  VeriCheck Model Export")
+print("="*50)
+print()
+
+# Save Tokenizer
+print("📦 Saving tokenizer...")
+with open(TOKENIZER_PATH, 'wb') as f:
+    pickle.dump(tokenizer, f)
+print(f"   ✓ Saved: {TOKENIZER_PATH}")
+
+# Save Model
+print("\n💾 Saving trained model...")
+model.save(MODEL_PATH)
+print(f"   ✓ Saved: {MODEL_PATH}")
+
+print()
+print("="*50)
+print("  ✅ Export Complete!")
+print("="*50)
+print()
+print("To use the model:")
+print("  1. Copy the following files to your VPS:")
+print(f"     - {MODEL_PATH}")
+print(f"     - {TOKENIZER_PATH}")
+print()
+print("  2. Or run this script from the backend:")
+print("     python backend/app/ml/export_model.py")
+print()
+print("  3. Start the backend server:")
+print("     python backend/run.py")
+print()
