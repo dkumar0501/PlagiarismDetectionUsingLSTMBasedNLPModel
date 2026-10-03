@@ -2,7 +2,15 @@
 
 **Natural Language Processing • Python • Deep Learning • LSTM • Text Similarity**
 
-[Python](https://img.shields.io/badge/Python-3.12-blue?logo=python&logoColor=white) [TensorFlow](https://img.shields.io/badge/TensorFlow-Keras-orange?logo=tensorflow&logoColor=white) [Keras](https://img.shields.io/badge/Keras-Deep%20Learning-red?logo=keras&logoColor=white) [LSTM](https://img.shields.io/badge/Model-LSTM-green) [NLP](https://img.shields.io/badge/NLP-Text%20Processing-purple)
+<!-- Badges -->
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/TensorFlow-Keras-orange?logo=tensorflow&logoColor=white" alt="TensorFlow">
+  <img src="https://img.shields.io/badge/NLP-Enabled-green?logo=googlegemini&logoColor=white" alt="NLP">
+  <img src="https://img.shields.io/badge/LSTM-Deep%20Learning-red?logo=tensorflow&logoColor=white" alt="LSTM">
+  <img src="https://img.shields.io/badge/Tokenization-Text%20Processing-purple?logo=bookstack&logoColor=white" alt="Tokenization">
+  <img src="https://img.shields.io/badge/Deep%20Learning-LSTM-success?logo=keras&logoColor=white" alt="Deep Learning">
+</p>
 
 ## 📘 Overview
 
