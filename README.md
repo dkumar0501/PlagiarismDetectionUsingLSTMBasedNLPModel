@@ -1,5 +1,5 @@
 # Plagiarism Detection Using LSTM NLP Model
-
+ 
 **Natural Language Processing • Python • Deep Learning • LSTM • Text Similarity**
 
 <!-- Badges -->
