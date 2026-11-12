@@ -4,7 +4,7 @@
 
 <!-- Badges -->  
 <p align="left">
-  <img src="https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white" alt="Python">  
   <img src="https://img.shields.io/badge/TensorFlow-Keras-orange?logo=tensorflow&logoColor=white" alt="TensorFlow">
   <img src="https://img.shields.io/badge/NLP-Enabled-green?logo=googlegemini&logoColor=white" alt="NLP">
   <img src="https://img.shields.io/badge/LSTM-Deep%20Learning-red?logo=tensorflow&logoColor=white" alt="LSTM">
